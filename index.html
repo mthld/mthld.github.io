@@ -1,62 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mathilde's website</title>
-    <meta name="description" content="Welcome on Mathilde's personal website." />
-    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <meta name="description" content="Libre & privacy-aware services for those who need it." />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/img/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#000000" />
     <link rel="shortcut icon" href="assets/img/favicons/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="msapplication-TileColor" content="#603cba" />
     <meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item image is-48x48" href="#">
-          <img
-            class="is-rounded"
-            src="assets/img/48x48.png"
-            width="48"
-            height="48"
-            alt="a circle full of brushed colors, pink, red and black"
-          />
-        </a>
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasic"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div id="navbarBasic" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="index.html">Home</a>
-          <a class="navbar-item" href="contact.html">Contact</a>
-          <a class="navbar-item" href="links.html">Links</a>
-        </div>
-      </div>
-    </nav>
-    <section class="section">
-      <div class="container content is-max-desktop">
-        <h1 class="title is-2">Mathilde</h1>
-        <div class="columns">
-          <div class="column is-three-fifths">
-            <p class="subtitle is-4">Welcome on my <strong>personal</strong> website!</p>
+    <div class="container col-md-8 col-sm-10">
+      <h1 id="title">mathilde</h1>
+    </div>
+    <div class="container col-md-8 col-sm-10">
             <p>
-              I'm a GNU/Linux & UNIX sysadmin currently working in a french co-op,
-              <a target="_blank" href="https://clic2000.fr">Clic2000</a>, with my friend
-              <a target="_blank" href="https://more-coffee.net"> Myrdin</a>.
+              I'm currently working at
+              <a target="_blank" href="https://gageure.com">gageure</a>, a company I founded after working for 3 years at <a target="_blank" href="https://clic2000.fr">Clic2000</a>, the co-op we've had with my friend <a target="_blank" href="https://more-coffee.net"> Myrdin</a>.
             </p>
             <p>
               I have a strong interest in ethic and pragmatic technology. If it isn't working seamlessly for
@@ -71,33 +40,15 @@
               But you'll usually find me cooking food, hugging my partner or being angry at some stuff I have
               no control at. While of course listening to some good music.
             </p>
+          </div>
+          <div class="container col-md-8 col-sm-10">
             <p>
-              This website is made from static HTML pages, the <a href="https://bulma.io">Bulma</a> CSS
-              framework & few lines of vanilla JavaScript. Check out the sources:
-              <a href="https://github.com/mthld/mathild.eu">mthld/mathild.eu</a>
+              This website is made from a single static HTML page, with a <a href="https://getbootstrap.com">Bootstrap</a> base CSS template. Check out the sources: <a href="https://github.com/mthld/mathild.eu">mthld/mathild.eu</a>
             </p>
           </div>
-          <div class="column">
-            <figure class="image">
-              <img
-                src="assets/img/woods.jpg"
-                width="480"
-                height="640"
-                alt="a very small path made with wooden planks in a green dense forest"
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
   </body>
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        © <strong>mathild.eu</strong> by Mathilde. The website content is licensed
+      <footer>
+       © <strong>mathild.eu</strong> by Mathilde. The website content is licensed
         <a href="https://thufie.lain.haus/NPL.html">CNPL-v7+</a>.
-      </p>
-    </div>
   </footer>
-  <script src="assets/js/nav.js"></script>
 </html>
