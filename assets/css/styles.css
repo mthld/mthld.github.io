@@ -39,7 +39,7 @@ a {
 
 a:hover {
   color: hotpink;
-  opacity: 1.0;
+  opacity: 1;
   text-decoration: underline;
 }
 
