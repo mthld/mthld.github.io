@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/eb-garamond-v19-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/eb-garamond-v19-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/eb-garamond-v19-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/eb-garamond-v19-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/eb-garamond-v19-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/eb-garamond-v19-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "EB Garamond", monospace;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.navbar {
+  margin-top: 2%;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 2%;
+}
+
+h3 {
+  font-style: italic;
+}
+
+#title {
+  font-size: 3.6em;
+  font-weight: bold;
+}
+
+#subtitle {
+  margin-top: 3%;
+  font-style: italic;
+}
+
+.home {
+  margin-top: 4%;
+  padding: 15px;
+  color: #fff;
+  background-color: #444;
+}
+
+footer {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 0.8em;
+}
