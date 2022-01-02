@@ -14,7 +14,9 @@
 body {
   font-family: "EB Garamond", monospace;
   font-size: 1.4em;
-  color: #333;
+  opacity: 0.9;
+  color: #fff;
+  background-color: #121212;
 }
 
 .navbar {
@@ -22,47 +24,36 @@ body {
 }
 
 .nav-link {
-  color: #333;
+  color: #fff;
+  opacity: 1.0;
 }
 
 .nav-link:hover {
-  color: #000;
+  color: #fff;
+  opacity: 0.8;
   text-decoration: underline;
 }
 
 a {
-  color: #333;
+  color: #fff;
+  opacity: 1.0;
 }
 
 a:hover {
-  color: #000;
-  opacity: 0.6;
+  color: #fff;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 h1 {
-  margin-top: 2%;
-}
-
-h3 {
-  font-style: italic;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #title {
   font-size: 3.6em;
   font-weight: bold;
-}
-
-#subtitle {
-  margin-top: 3%;
-  font-style: italic;
-}
-
-.home {
-  margin-top: 4%;
-  padding: 15px;
-  color: #fff;
-  background-color: #444;
+  opacity: 0.9;
 }
 
 footer {
@@ -70,4 +61,5 @@ footer {
   margin-bottom: 3%;
   text-align: center;
   font-size: 0.8em;
+  opacity: 0.6;
 }
