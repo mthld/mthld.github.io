@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mathild.eu/sitemap.xml
+Sitemap: https://mthld.github.io/sitemap.xml
